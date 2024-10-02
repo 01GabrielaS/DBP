@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="formulario" action="procesar.php" method="post">
+        <div id="secciones">
+            <h1>FORMULARIO</h1>
+            <div id="experiencia laboral">
+                <h2>Experiencia laboral</h2>
+                <textarea name="experiencia" placeholder= "Ingresa tu experiencia laboral"></textarea>
+            </div>
+        
+            <div id="formacion">
+                <h2>Formacion</h2>
+                <textarea name="formacion" placeholder= "Ingresa tu formacion"></textarea>
+            </div>
+        
+            <div id="idiomas">
+                <h2>Idiomas</h2>
+                <label><input type="checkbox" name="idiomas" value="Español">Español</label><br>
+                <label><input type="checkbox" name="idiomas" value="Ingles">Ingles</label><br>
+                <label><input type="checkbox" name="idiomas" value="Portugues">Portugues</label><br>
+                <label><input type="checkbox" name="idiomas" value="Italiano">Italiano</label><br>
+                <label><input type="checkbox" name="idiomas" value="Aleman">Aleman</label><br>
+            </div>
+        
+            <div id="aptitudes">
+                <h2>Aptitudes, habilidades</h2>
+                <select name="aptitudes">
+                    <option value="Programación">Programacion </option>
+                    <option value="Diseño gráfico">Diseño gráfico</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Análisis de datos">Análisis de datos</option>
+                    <option value="Comunicación efectiva">Comunicación efectiva</option>
+                </select>
+            </div>
+            <button id="submit"> Submit</button>
+        </div>  
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
