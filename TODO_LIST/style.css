@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+:root{
+    --grey: #616161;
+    --green:#bed17a;
+    --watermelon:#eba98a;
+    --green-dark:#a8b47e;
+    --shadow:#4a6946;
+    --white:#e4e2e0;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--green), var(--watermelon));
+    height: 100vh;
+    font-family:'Prompt', 'sans-serif';
+}
+
+.container{
+    width:400px;
+    height: 600px;
+    margin:0 auto;
+}
+
+/*PERFIL*/
+
+.perfil h1{
+    color: var(--white);
+    text-shadow: 3px 1px 7px var(--shadow);
+    letter-spacing: 1px;
+    font-size: 3em;
+}
+
+.perfil span{
+    color: var(--grey);
+    letter-spacing:1px;
+    font-weight: bold;
+}
+
+#fecha{
+    color: var(--grey);
+    padding: 50px 0 5px 0;
+}
+
+
+.agregar-tarea{
+    background-color: var(--grey);
+    border-radius: 15px;
+    height:70px;
+    display: flex;
+    align-items:center;
+    padding:10px;
+    gap:70px;
+    margin:40px 0;
+}
+
+.agregar-tarea input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border:none;
+    background-color:var(--grey);
+    font-family: 'Prompt', 'sans-serif';
+}
+
+.agregar-tarea i{
+    font-size: 50px;
+    color: var(--green);
+}
+
+.agregar-tarea i:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.agregar-tarea input::placeholder{
+    font-size: 1.1 rem;
+    color: var(--green);
+}
+
+.seccion-tarea h3{
+    color: var(--white);
+    text-shadow: 3px 1px 7px var(--shadow);
+    margin-bottom:20px;
+}
+
+
+.seccion-tarea li{
+    display: flex;
+    background: linear-gradient(to bottom, var(--green-dark),var(--green) );
+    color: var(--grey);
+    border-radius: 15px;
+    padding:10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.seccion-tarea i{
+    font-size: 25px;
+}
+.seccion-tarea i:hover{
+    color:var(--watermelon);
+    cursor:pointer;
+
+}
+
+.seccion-tarea > ul p{
+    font-size:1.2rem;
+}
+
+.line-through{
+    text-decoration:line-through;
+    color: var(--watermelon);
+
+
+}
+
+.botones-inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.botones-inferior button{
+    background: var(--grey);
+    border:none;
+    border-radius: 15px;
+    height:40px;
+    align-items:center;
+    padding:10px 20px;
+    margin: 0;
+    font-family: 'Prompt', 'sans-serif';
+    font-weight: bolder;
+    color:var(--white);
+}
+
+
+
