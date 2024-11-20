@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms_to_CV.CVPage"
+             Title="Currículum Vitae">
+    
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="10">
+            <Label Text="Currículum Vitae" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <Label x:Name="NombreLabel" FontSize="Medium" />
+            <Label x:Name="ApellidoLabel" FontSize="Medium" />
+            <Label x:Name="PaisLabel" FontSize="Medium" />
+            <Label x:Name="CorreoLabel" FontSize="Medium" />
+            <Label x:Name="CelularLabel" FontSize="Medium" />
+            <Label x:Name="IdiomasLabel" FontSize="Medium" />
+            <Label x:Name="LenguajesLabel" FontSize="Medium" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.csproj.AssemblyReference.cache
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\bin\Debug\netstandard2.0\Forms_to_CV.deps.json
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\bin\Debug\netstandard2.0\Forms_to_CV.dll
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\bin\Debug\netstandard2.0\ref\Forms_to_CV.dll
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\bin\Debug\netstandard2.0\Forms_to_CV.pdb
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\CVPage.xaml.g.cs
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.AssemblyInfoInputs.cache
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.AssemblyInfo.cs
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.csproj.CoreCompileInputs.cache
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.dll
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\refint\Forms_to_CV.dll
+C:\Users\GABRIELA\source\repos\Forms_to_CV\Forms_to_CV\Forms_to_CV\obj\Debug\netstandard2.0\Forms_to_CV.pdb

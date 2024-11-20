@@ -1,0 +1,54 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms_to_CV.MainPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Formulario de CV Dinámico" FontSize="Large" HorizontalOptions="Center" />
+
+            <!-- Campo Nombre -->
+            <Entry x:Name="NombreEntry" Placeholder="Nombres" />
+
+            <!-- Campo Apellido -->
+            <Entry x:Name="ApellidoEntry" Placeholder="Apellidos" />
+
+            <!-- Campo País -->
+            <Picker x:Name="PaisPicker" Title="Seleccione País">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Argentina</x:String>
+                        <x:String>Colombia</x:String>
+                        <x:String>Chile</x:String>
+                        <x:String>España</x:String>
+                        <x:String>México</x:String>
+                        <x:String>Perú</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- Campo Dinámico para Idiomas -->
+            <Label Text="Idiomas:" FontSize="Medium" />
+            <StackLayout x:Name="IdiomasLayout" Spacing="10">
+                <!-- Aquí se agregarán dinámicamente controles -->
+            </StackLayout>
+            <Button Text="Agregar Idioma" Clicked="OnAddIdiomaClicked" />
+
+            <!-- Campo Dinámico para Lenguajes -->
+
+            <Label Text="Lenguajes de programación"/>
+            <StackLayout x:Name="LenguajesLayout" Orientation="Vertical">
+
+            </StackLayout>
+            <Button Text="Aregar lenguaje" Clicked="OnAddLenguajeClicked"/>
+
+            <!-- Campo para Correo Electrónico -->
+            <Entry x:Name="CorreoEntry" Placeholder="Correo electrónico" Keyboard="Email" />
+
+            <!-- Campo para Celular -->
+            <Entry x:Name="CelularEntry" Placeholder="Celular" Keyboard="Telephone" />
+
+            <!-- Botón para Generar el CV -->
+            <Button Text="Generar CV" Clicked="OnGenerateCVClicked" />
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
